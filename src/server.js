@@ -20,4 +20,4 @@ app.use(routes);
 
 
 
-module.exports = app.listen(process.env.PORT || 3333);
+app.listen(process.env.PORT || 3333);
